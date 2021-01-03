@@ -3,7 +3,7 @@
 This project was completed by - Keith Ryan (G00387816@gmit.ie)
 
 ## Overview of the Dataset
-The brief for this project is to create a simulated datasetusing known properties and could be about whatever the student chose.
+The brief for this project is to create a simulated dataset using known properties and could be about whatever the student chose.
 
 The idea for my project was to generate data for 500 Irish adult individuals defining their Gender, Age, Height, BMI Category and Weight.
 I see Gender as being the most significant variable for this dataset as it plays the most significant role in each of the other variables
@@ -31,6 +31,11 @@ There are two .csv files that the notebook requires (in the Data directory) in o
 If trying to run this notebook in a fresh environment the following packages will be required - pandas, numpy, matplotlib and seaborn.
 
 ## Results and Conclusions
-To see the proper results and conclusions I would recommend executing each of the cells in the notebook and reading through the markdown on observations and the approach as you go as all of the results and conclusions are contained therein. However it should still be relatively straightforward to follow without doing so and I have included a 'synthetic-adult-data.csv' file in the repository as an example of the generated data.
+I will briefly describe some conclusions here, but to see the proper results and conclusions I would recommend executing each of the cells in the notebook and reading through the markdown on observations and the approach as you go as all of the results and conclusions are contained therein. However it should still be relatively straightforward to follow without doing so and I have included a 'synthetic-adult-data.csv' file in the repository as an example of the generated data.
 
+Overall I am pleased with the outcome of this project and have learned much in doing it and identified further areas to read up on and explore, especially in the areas where I feel my creating of fake data fell short.
+To figure out what are sensible ways of making up the data I used data from multiple sources but primarily from the Central Statistics Office of Ireland, which gave me confidence that what I was generating was a good representation of the Irish population.
+I am however uncofident of whether the choices made around generating weight are indeed a good representation, I believe it works well with the variables of Gender and Height and the resulting Scatterplot looks appropriate. However when Age is included against Weight, the data simply looks noisy which is a result of not factoring in age as being a variable impacting weight and were I to redo this project this would be one of the primary areas I would focus on so that each of the variables has a clear impact on weight - while working on this project it higlighted to me the importance of having multiple variables impact a single variable but at this stage in my understanding of Data Analysis I'm unable to reproduce this.
+
+The potential use of a dataset such as this would be to provide data for individuals, while the Central Statistics Office provides great aggregated data, there are ocassions where having it non aggregated and based on individuals is very useful and so the ability to generate such a dataset based around these known properties has significant value to the scientific community for performing many different kinds of analysis.
 
